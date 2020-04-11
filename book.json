@@ -1,0 +1,66 @@
+{
+    "title": "Go wiki",
+    "author": "Go",
+    "description": "Wiki of Golang",
+    "language": "en",
+    "styles": {
+      "website": "./public-repertory/css/gitbook-configure.css"
+    },
+    "plugins": [
+      "theme-comscore",
+      "prism",
+      "-highlight",
+      "copy-code-button",
+      "search-pro",
+      "-search",
+      "-lunr",
+      "expandable-chapters",
+      "splitter",
+      "-sharing",
+      "github-buttons",
+      "donate",
+      "tbfed-pagefooter",
+      "anchor-navigation-ex",
+      "image-captions"
+    ],
+    "pluginsConfig": {
+      "github-buttons": {
+        "buttons": [
+          {
+            "user": "yibit",
+            "repo": "litchi",
+            "type": "star",
+            "count": true,
+            "size": "small"
+          },
+          {
+            "user": "yibit",
+            "width": "160",
+            "type": "follow",
+            "count": true,
+            "size": "small"
+          }
+        ]
+      },
+      "prism": {
+        "css": [
+          "prismjs/themes/prism-solarizedlight.css"
+        ],
+        "lang": {
+          "shell": "bash"
+        }
+      },
+      "tbfed-pagefooter": {
+        "copyright":"Copyleft&copy Yibit 2019",
+        "modify_label": "Last-Modified：",
+        "modify_format": "YYYY-MM-DD HH:mm:ss"
+      },
+      "anchor-navigation-ex": {
+        "showLevel": false
+      },
+      "image-captions": {
+        "caption": "_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_",
+        "align": "centre"
+      }
+    }
+}
